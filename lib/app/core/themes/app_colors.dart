@@ -2,53 +2,41 @@ import 'package:flutter/material.dart';
 
 class AppColors extends ThemeExtension<AppColors> {
   final Color white;
-  final Color black;
-  final Color vividSkyBlue;
-  final Color slateGray;
-  final Color cultured;
-  final Color lightSilver;
-  final Color lightSteelBlue;
-  final Color pastelBlue;
-  final Color lightIceBlue;
-  final Color redSalsa;
+  final Color slatePurple;
+  final Color blue;
+  final Color paleWhite;
+  final Color slateBlue;
+  final Color mutedAzure;
+  final Color fireRed;
 
   const AppColors({
     required this.white,
-    required this.black,
-    required this.vividSkyBlue,
-    required this.slateGray,
-    required this.cultured,
-    required this.lightSilver,
-    required this.lightSteelBlue,
-    required this.pastelBlue,
-    required this.lightIceBlue,
-    required this.redSalsa,
+    required this.slatePurple,
+    required this.blue,
+    required this.paleWhite,
+    required this.slateBlue,
+    required this.mutedAzure,
+    required this.fireRed,
   });
 
   @override
   AppColors copyWith({
     Color? white,
-    Color? black,
-    Color? vividSkyBlue,
-    Color? slateGray,
-    Color? cultured,
-    Color? lightSilver,
-    Color? lightSteelBlue,
-    Color? pastelBlue,
-    Color? lightIceBlue,
-    Color? redSalsa,
+    Color? slatePurple,
+    Color? blue,
+    Color? paleWhite,
+    Color? slateBlue,
+    Color? mutedAzure,
+    Color? fireRed,
   }) {
     return AppColors(
       white: white ?? this.white,
-      black: black ?? this.black,
-      vividSkyBlue: vividSkyBlue ?? this.vividSkyBlue,
-      slateGray: slateGray ?? this.slateGray,
-      cultured: cultured ?? this.cultured,
-      lightSilver: lightSilver ?? this.lightSilver,
-      lightSteelBlue: lightSteelBlue ?? this.lightSteelBlue,
-      pastelBlue: pastelBlue ?? this.pastelBlue,
-      lightIceBlue: lightIceBlue ?? this.lightIceBlue,
-      redSalsa: redSalsa ?? this.redSalsa,
+      slatePurple: slatePurple ?? this.slatePurple,
+      blue: blue ?? this.blue,
+      paleWhite: paleWhite ?? this.paleWhite,
+      slateBlue: slateBlue ?? this.slateBlue,
+      mutedAzure: mutedAzure ?? this.mutedAzure,
+      fireRed: fireRed ?? this.fireRed,
     );
   }
 
@@ -56,15 +44,12 @@ class AppColors extends ThemeExtension<AppColors> {
   AppColors lerp(covariant AppColors? other, double t) {
     return AppColors(
       white: Color.lerp(white, other?.white, t)!,
-      black: Color.lerp(black, other?.black, t)!,
-      vividSkyBlue: Color.lerp(vividSkyBlue, other?.vividSkyBlue, t)!,
-      slateGray: Color.lerp(slateGray, other?.slateGray, t)!,
-      cultured: Color.lerp(cultured, other?.cultured, t)!,
-      lightSilver: Color.lerp(lightSilver, other?.lightSilver, t)!,
-      lightSteelBlue: Color.lerp(lightSteelBlue, other?.lightSteelBlue, t)!,
-      pastelBlue: Color.lerp(pastelBlue, other?.pastelBlue, t)!,
-      lightIceBlue: Color.lerp(lightIceBlue, other?.lightIceBlue, t)!,
-      redSalsa: Color.lerp(redSalsa, other?.redSalsa, t)!,
+      slatePurple: Color.lerp(slatePurple, other?.slatePurple, t)!,
+      blue: Color.lerp(blue, other?.blue, t)!,
+      paleWhite: Color.lerp(paleWhite, other?.paleWhite, t)!,
+      slateBlue: Color.lerp(slateBlue, other?.slateBlue, t)!,
+      mutedAzure: Color.lerp(mutedAzure, other?.mutedAzure, t)!,
+      fireRed: Color.lerp(fireRed, other?.fireRed, t)!,
     );
   }
 }

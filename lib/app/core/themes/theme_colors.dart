@@ -11,29 +11,23 @@ class ThemeColors {
 
   static const AppColors _themeLight = AppColors(
     white: Color(0xFFFFFFFF),
-    black: Color(0xFF000000),
-    vividSkyBlue: Color(0xFF007FFF),
-    slateGray: Color(0xFF616075),
-    cultured: Color(0xFFF5F7F9),
-    lightSilver: Color(0xFFD2D9E3),
-    lightSteelBlue: Color(0xFFC6CFDC),
-    pastelBlue: Color(0xFFA9B5CA),
-    lightIceBlue: Color(0xFFE5F2FF),
-    redSalsa: Color(0xFFFF5E5E),
+    slatePurple: Color(0xFF3F3D56),
+    blue: Color(0xFF007FFF),
+    paleWhite: Color(0xFFF5F7F9),
+    slateBlue: Color(0xFF8D9CB8),
+    mutedAzure: Color(0xFFC6CFDC),
+    fireRed: Color(0xFFFF5E5E),
   );
 
   //Caso queira um app com darkMode é só modificar s cores abaixo pré configuradas
   static const AppColors _themeDark = AppColors(
     white: Color(0xFFFFFFFF),
-    black: Color(0xFF000000),
-    vividSkyBlue: Color(0xFF007FFF),
-    slateGray: Color(0xFF616075),
-    cultured: Color(0xFFF5F7F9),
-    lightSilver: Color(0xFFD2D9E3),
-    lightSteelBlue: Color(0xFFC6CFDC),
-    pastelBlue: Color(0xFFA9B5CA),
-    lightIceBlue: Color(0xFFE5F2FF),
-    redSalsa: Color(0xFFFF5E5E),
+    slatePurple: Color(0xFF3F3D56),
+    blue: Color(0xFF007FFF),
+    paleWhite: Color(0xFFF5F7F9),
+    slateBlue: Color(0xFF8D9CB8),
+    mutedAzure: Color(0xFFC6CFDC),
+    fireRed: Color(0xFFFF5E5E),
   );
 
   static ThemeData themeLight = _theme.copyWith(
